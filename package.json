@@ -1,0 +1,31 @@
+{
+  "name": "fastify-test",
+  "version": "1.0.0",
+  "description": "Trying to learn and practice fastify.",
+  "main": "server.ts",
+  "scripts": {
+    "dev": "tsx watch server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mobinafshari/fastify-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Mobinafshari/fastify-test/issues"
+  },
+  "homepage": "https://github.com/Mobinafshari/fastify-test#readme",
+  "dependencies": {
+    "@fastify/mongodb": "^10.0.0",
+    "fastify": "^5.7.4",
+    "fastify-plugin": "^5.1.0",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "tsx": "^4.21.0"
+  }
+}
